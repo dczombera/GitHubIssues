@@ -1,2 +1,0 @@
-defmodule GithubIssues do
-end

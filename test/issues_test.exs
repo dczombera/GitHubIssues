@@ -1,6 +1,6 @@
-defmodule GithubIssuesTest do
+defmodule IssuesTest do
   use ExUnit.Case
-  doctest GithubIssues
+  doctest Issues
 
   test "the truth" do
     assert 1 + 1 == 2

@@ -1,6 +1,7 @@
 # This file is responsible for configuring your application
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
+config :issues, github_url: "https://api.github.com"
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
@@ -10,11 +11,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :github_issues, key: :value
+#     config :issues, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:github_issues, :key)
+#     Application.get_env(:issues, :key)
 #
 # Or configure a 3rd-party app:
 #
