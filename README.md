@@ -2,6 +2,8 @@
 
 **TODO: Add description**
 
+Parses the command line arguments and fetches the requested number of issues of given project. Generates a table of the last _n_ issues.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
