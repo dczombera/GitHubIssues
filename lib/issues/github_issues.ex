@@ -4,8 +4,8 @@ defmodule Issues.GithubIssues do
 
   def fetch(user, project) do
     issues_url(user, project)
-      |> HTTPoison.get(@user_agent)
-      |> handle_response
+    |> HTTPoison.get(@user_agent)
+    |> handle_response
   end
 
   def issues_url(user, project) do
@@ -14,6 +14,10 @@ defmodule Issues.GithubIssues do
 
   def handle_response({ :ok, %{status_code: 200, body: body }}) do
     { :ok, Poison.Parser.parse!(body) }
+  end
+
+  def handle_response({ :ok, %{status_code: 404, body: body }}) do
+    { :error, Poison.Parser.parse!(body) }
   end
 
   def handle_response( { :error, %{status_code: _, body: body }}) do
