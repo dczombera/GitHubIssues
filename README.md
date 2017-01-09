@@ -5,7 +5,7 @@ This project's goal was to learn more about Elixir and its tools.
 
 ## Make a command-line executable
 
-If you want to order to run the application from the command line, make sure Erlang is installed.
+If you want to run the application from the command line, make sure Erlang is installed.
 When you are ready to go, do the following steps:
 
 1. In the project's folder, packe the program using mix:
@@ -14,7 +14,7 @@ When you are ready to go, do the following steps:
   $ mix escript.build
   ```
 
-2. Now you should fasten your seat belt. You can execute the app passing it
+2. Now fasten your seat belt! You can execute the app passing it
    the GitHub user name and the name of the project. Optionally, you can also
    pass the number of issues you want to fetch
 
@@ -44,7 +44,7 @@ When you are ready to go, do the following steps:
 
 ## Create Documentation
 
-To generate a documentation of this project using Elixir's `ExDoc`, run following:
+To generate a documentation of this project using Elixir's `ExDoc`, run the following:
 
   ```elixir
   $ mix docs
@@ -55,4 +55,4 @@ To generate a documentation of this project using Elixir's `ExDoc`, run followin
 After the docs were successfully created, you can view them in your browser at `doc/index.html`
 
 
-![alt ExDoc](https://cloud.githubusercontent.com/assets/2528506/21761556/1ec95852-d654-11e6-9f0f-85205623752d.png) 
+![alt ExDoc](https://cloud.githubusercontent.com/assets/2528506/21761556/1ec95852-d654-11e6-9f0f-85205623752d.png)
