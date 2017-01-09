@@ -55,4 +55,4 @@ To generate a documentation of this project using Elixir's `ExDoc`, run the foll
 After the docs were successfully created, you can view them in your browser at `doc/index.html`
 
 
-![alt ExDoc](https://cloud.githubusercontent.com/assets/2528506/21761556/1ec95852-d654-11e6-9f0f-85205623752d.png)
+![alt ExDoc](https://cloud.githubusercontent.com/assets/2528506/21768546/6eae9226-d67a-11e6-9ab1-a4ec6905985b.png)
